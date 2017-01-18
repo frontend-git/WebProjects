@@ -1,0 +1,29 @@
+
+/*** ESSENTIAL STYLES ***/
+.sf-menu, .sf-menu * {
+/*	margin:			0;*/
+/*	padding:		0;*/
+	list-style:		none;
+}
+
+.sf-menu ul {
+	position:		absolute;
+	top:			-999px;
+	
+}
+
+
+.sf-menu li:hover ul,
+.sf-menu li.sfHover ul {
+	left:			0;
+	top:			70px; /* match top ul list item height */
+	z-index:		9999;
+}
+body {
+	font-family: 'PT Sans Narrow', sans-serif;
+	-webkit-font-smoothing: antialiased;
+	overflow-y: scroll;
+	overflow-x: hidden;
+	background:#000;
+	color:#000
+}
